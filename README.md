@@ -1,16 +1,32 @@
-# sms_ussd
+# SMS Payment App
 
-A new Flutter project.
+A Flutter application that allows users to make payments using SMS. The app extracts payment information from SMS messages and executes USSD codes to complete transactions.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Extracts payment information from SMS messages
+- Calculates transaction fees based on payment amount
+- Executes USSD codes to complete transactions
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone this repository.
+2. Run `flutter pub get` to install dependencies.
+3. Connect a device or start an emulator.
+4. Run the app using `flutter run`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+1. Open the app and grant necessary permissions.
+2. Wait for an SMS with payment information.
+3. Click on `Extract Data` to extract payment information from the SMS.
+4. Verify the extracted payment amount and beneficiary number.
+5. Click on `Execute USSD Code` to complete the payment.
+
+## Contributors
+
+- G87 <https://g87code.my.canva.site/>
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for more information.
